@@ -41,7 +41,7 @@ print("----------------------")
 print("Winner :"  + str(k[w]))
 print("----------------------")
      
-output_path = os.path.join("Output", "Result.txt")
+output_path = os.path.join("Result.txt")
 
 #Opening file to write data and closing file once complete
 

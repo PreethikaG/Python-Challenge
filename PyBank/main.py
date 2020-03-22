@@ -65,7 +65,7 @@ with open (file_path) as csv_file:
     print(f"Greatest Decrease in Profits: {min_month}, (${greatdec})")
  
  #Giving the output path 
-output_path = os.path.join("Output", "Result.txt")
+output_path = os.path.join("Result.txt")
 
 #Opening file to write data and closing file once complete
 with open(output_path, 'w', newline='') as text_file:
